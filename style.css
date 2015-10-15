@@ -1,0 +1,45 @@
+@font-face {
+  font-family: PopulationZeroBB;
+  src: url("PopulationZeroBB.otf") format("opentype");
+}
+
+#header ul li{
+  width: 25%;
+  float: left;
+  background: #2f2f2f;
+  text-align: center;
+  color: white;
+  font-family: PopulationZeroBB;
+  font-size: 36px;
+}
+
+#header ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
+  padding: 0;
+}
+#header a{
+  text-decoration: none;
+  color: white;
+}
+#header a:hover{
+  color: FFF45C;
+}
+
+#header h1{
+  text-align: center;
+  font-family: PopulationZeroBB;
+  font-size: 72px;
+  color: white;
+}
+
+#header{
+  background-image: image("vectorHalftone7.ai");
+
+}
+body{
+  background-color: #3f3f3f;
+  color: white;
+}
